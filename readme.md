@@ -1,82 +1,95 @@
-# 🚀 Desafio de lançamento do curso de Angular na Rocketseat
+<p align="center">
+  <img src=".github/img/logo-event.svg" alt="Desafio Angular na Prática - Rocketseat" width="400"/>
+</p>
 
-### ⚠️ **Instruções Importantes**
 
-- A branch **`01-layout-completo`** deve ser utilizada por quem deseja **iniciar o desafio do zero**, acompanhando os conteúdos e evoluindo o projeto passo a passo.  
+## 📌 Sobre o Desafio
+O **Desafio Angular na Prática** é uma imersão oferecida pela [Rocketseat](https://www.rocketseat.com.br/) que aconteceu entre **29/09 e 02/10**, com o objetivo de construir um **Painel de Gerenciamento de Produtos** aplicando conceitos fundamentais do **Angular**.
 
-- A branch **`main`** contém o projeto **finalizado**, de acordo com o que foi desenvolvido nos vídeos do desafio.  
+Durante **3 aulas práticas** + **1 encontro ao vivo**, o projeto foi desenvolvido do zero, simulando situações reais do mercado.
 
----
+## 🛠️ Tecnologias e Conceitos Utilizados
+- ⚡ **Angular**
+- 🔄 **RxJS**
+- 🎨 **Tailwind CSS**
+- 📋 **Reactive Forms**
+- 🗂️ **JSON Server**
+- 🌐 **Requisições HTTP**
 
-### 📂 Descrição do Projeto
+## 🎯 Objetivo
+Criar um **sistema de gerenciamento de produtos**, aplicando na prática os principais recursos do Angular:
+- Roteamento
+- Formulários Reativos
+- Estilização com Tailwind CSS
+- Consumo de APIs com JSON Server
+- Boas práticas de organização de projeto
 
-Este projeto é uma simulação de um sistema de gestão de produtos que inclui as seguintes funcionalidades:
+## 📚 Aprendizados
+- Estruturação de um projeto Angular do zero
+- Integração com backend fake usando JSON Server
+- Uso de RxJS para lidar com dados reativos
+- Estilização moderna com Tailwind CSS
+- Criação de formulários dinâmicos e validados
 
-* **Tela de Login**: Autenticação de usuários.
-* **Listagem de Produtos**: Exibição de produtos com opções de filtro por título e status.
-* **Tela de Criação de Produto**: Interface para adicionar novos produtos ao catálogo.
+## 🚀 Como executar o projeto
 
-O desafio é dividido em dois projetos, um frontend em Angular e um backend em Express, que estão localizados no mesmo repositório.
+### Pré-requisitos
 
----
+<p align="justify">Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:</p>
 
-### ▶️ Como Executar os Projetos
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,vscode,nodejs,angular" />
+</a>
 
-Para rodar a aplicação, você deve iniciar tanto o servidor do backend quanto o frontend em terminais separados.
+
+## 📦 Como executar o projeto
+
+```bash
+# Clone este repositório
+git clone https://github.com/Gelzieny/desafio-rocketseat-angular.git
+
+# Acesse a pasta do projeto
+cd desafio-rocketseat-angular
+```
 
 #### Backend (Express)
 
-1.  Abra um terminal na pasta `backend-gestao-marketplace`.
-2.  Instale as dependências do projeto:
-    ```bash
-    npm install
-    ```
-3.  Execute o comando para iniciar o servidor:
-    ```bash
-    npm run dev
-    ```
-4.  👉 O servidor estará disponível em `http://localhost:3000`.
+```bash
+# Acesse a pasta do projeto
+cd backend-gestao-marketplace
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
+npm run server
+
+# Abra o navegador e acesse
+http://localhost:3000
+```
+
 
 #### Frontend (Angular)
 
-1.  Abra um terminal na pasta `frontend-gestao-marketplace`.
-2.  Instale as dependências do projeto:
-    ```bash
-    npm install
-    ```
-3.  Execute o comando para iniciar a aplicação:
-    ```bash
-    ng serve
-    ```
-4.  👉 A aplicação estará disponível em `http://localhost:4200/`.
 
----
+```bash
+# Acesse a pasta do projeto
+cd frontend-gestao-marketplace
 
-### 🛠️ Instalações Necessárias
+# Instale as dependências
+npm install
 
-Certifique-se de que as seguintes ferramentas estão instaladas em seu ambiente para que os projetos funcionem corretamente:
+# Execute a aplicação
+ng serve
 
-* **Node.js**: Versão 22.19.0 (LTS).  
-* **Angular CLI**: Versão 20.  
-* **Insomnia**: Última versão para testar os endpoints do backend.  
-* **Visual Studio Code (VS Code)**: Última versão recomendada para edição de código.  
+# Abra o navegador e acesse
+http://localhost:4200/
+```
 
----
+# 🧑🏻‍💻 Autor
 
-### 💡 Extensões recomendadas do VS Code
+Feito com ❤️ por Gelzieny R. Martins 👋🏽 [Entre em contato!](https://www.linkedin.com/in/gelzieny-r-martins-180551106/)
 
-Para melhorar a produtividade durante o desenvolvimento, recomenda-se instalar as seguintes extensões no **Visual Studio Code**:
+## 📝 Licença
 
-- **Angular Language Service** → Fornece autocompletar, dicas e suporte avançado ao desenvolvimento Angular.  
-- **Material Icon Theme** → Adiciona ícones visuais aos arquivos e pastas, facilitando a navegação no projeto.  
-- **Shades of Purple** → Tema moderno e vibrante para melhorar a experiência visual no editor.  
-- **Tailwind CSS IntelliSense** → Autocompletar e validação para classes do Tailwind CSS, tornando o uso mais ágil e confiável.  
-
----
-
-### 📸 Recursos Adicionais
-
-* A pasta `imagens` na raiz do repositório contém imagens que podem ser usadas para teste ao criar um novo produto.
-* O arquivo `insomnia-backend.yaml`, localizado na pasta `backend-gestao-marketplace`, contém a coleção de endpoints que pode ser importada no Insomnia para facilitar os testes da API.
-
----
+Este projeto esta sobe a licença [MIT](./LICENSE).
